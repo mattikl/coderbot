@@ -2,7 +2,7 @@
 
 A chatbot that conducts coding interviews.
 
-Used for learning, demo and entertainment purposes.
+Used for learning, demo and entertainment purposes. This is a quick exercise for building a chatbot you can talk with, may use macos specific tools.
 
 ## Install requirements
 
