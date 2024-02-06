@@ -147,8 +147,9 @@ def transcribe(filename):
 def main(keyboard, silent):
     chat_log = ""
     opening_message = "Hi! I'm a coder bot and I'll ask you questions about coding. What languages have you used lately?"
-    play_audio(opening_message)
-    print("Chatbot: {opening_message}")
+    if not silent:
+        play_audio(opening_message)
+    print(f"Chatbot: {opening_message}")
     while True:
         if keyboard or silent:
             user_input = input("Candidate: ")
